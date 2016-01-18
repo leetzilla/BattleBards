@@ -1,0 +1,100 @@
+﻿@using BattleBards.Models
+@model CharacterModels
+	
+@{
+    ViewBag.Title = "Character management";
+}
+
+@section SpecialOther{
+	<style type="text/css">
+		#btnSave {
+			padding:8px 20px;
+			margin-top:20px;
+			width:200px;
+			font-weight:bold;
+		}
+
+		#imgClass {
+			height:400px;
+			width:auto;
+		}
+
+		span.attribute {
+			display:block;
+			margin-bottom:20px;
+			width:50px;
+			text-align:center;
+		}
+
+		#stats {
+			display:none;
+		}
+	</style>
+}
+
+<h2>Create a Character</h2>
+
+<div class="col-md-4">
+	@Html.LabelFor(m => m.name, new { @class = "control-label" })
+	@Html.TextBoxFor(m => m.name, new { @class = "form-control" })
+
+	@Html.LabelFor(m => m.classID, new { @class = "control-label" })
+	<select class="form-control" onchange="switchClass()" id="ddlClass">
+		<option value="0">Choose...</option>
+		<option value="1">fighter</option>
+		<option value="2">wizard</option>
+		<option value="3">thief</option>
+	</select>
+	<div id="stats">
+		@Html.LabelFor(m => m.smarts, new { @class = "control-label" })
+		<span id="smarts" class="attribute"></span>
+
+		@Html.LabelFor(m => m.swole, new { @class = "control-label" })
+		<span id="swole" class="attribute"></span>
+
+		@Html.LabelFor(m => m.swagger, new { @class = "control-label" })
+		<span id="swagger" class="attribute"></span>
+	</div>
+</div>
+
+<div class="col-md-8">
+	<img src="" id="imgClass" />
+</div>
+
+<br style="clear:both" />
+
+<div class="centered">
+	<input type="submit" name="Save" value="Save" id="btnSave" />
+</div>
+
+<script type="text/javascript">
+	function switchClass() {
+		switch ($("#ddlClass").val()) {
+			case "1":
+				$("#imgClass").attr("src", "http://orig07.deviantart.net/666d/f/2008/172/a/8/manga_character___warrior_by_kevdc.jpg");
+				setAttributes(5, 10, 7);
+				break;
+			case "2":
+				$("#imgClass").attr("src", "http://vignette3.wikia.nocookie.net/uncle-grandpa/images/2/27/Transparent_Evil_Wizard.png/revision/latest?cb=20140515001325");
+				setAttributes(10, 5, 7);
+				break;
+			case "3":
+				$("#imgClass").attr("src", "http://img00.deviantart.net/2d88/i/2013/285/b/a/thief_boy_actionnn_by_madelonetjj-d6q5afz.png");
+				setAttributes(7, 5, 10);
+				break;
+			case "0":
+				$("#imgClass").attr("src", "");
+				$("#stats").hide();
+				break;
+		}
+	}
+
+	function setAttributes(smarts, swole, swagger) {
+		$("#smarts").html(smarts);
+		$("#swole").html(swole);
+		$("#swagger").html(swagger);
+		$("#stats").show();
+	}
+</script>
+
+	
