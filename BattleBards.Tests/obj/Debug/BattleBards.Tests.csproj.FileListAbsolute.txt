@@ -83,3 +83,46 @@ C:\Users\michael\Documents\Visual Studio 2015\Projects\BattleBards\BattleBards.T
 C:\Users\michael\Documents\Visual Studio 2015\Projects\BattleBards\BattleBards.Tests\obj\Debug\BattleBards.Tests.csprojResolveAssemblyReference.cache
 C:\Users\michael\Documents\Visual Studio 2015\Projects\BattleBards\BattleBards.Tests\obj\Debug\BattleBards.Tests.dll
 C:\Users\michael\Documents\Visual Studio 2015\Projects\BattleBards\BattleBards.Tests\obj\Debug\BattleBards.Tests.pdb
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\BattleBards.Tests.dll.config
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\BattleBards.Tests.dll
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\BattleBards.Tests.pdb
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\BattleBards.dll
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\System.Web.Helpers.dll
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\System.Web.Mvc.dll
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\System.Web.Razor.dll
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\System.Web.WebPages.dll
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\Microsoft.Owin.dll
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\System.Web.Optimization.dll
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\Microsoft.Owin.Security.dll
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\Owin.dll
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\EntityFramework.dll
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\BattleBards.pdb
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\System.Web.Helpers.xml
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\System.Web.Mvc.xml
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\System.Web.Razor.xml
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\System.Web.WebPages.xml
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\Microsoft.Owin.xml
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\System.Web.Optimization.xml
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\Microsoft.Owin.Security.xml
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\EntityFramework.xml
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\obj\Debug\BattleBards.Tests.csprojResolveAssemblyReference.cache
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\obj\Debug\BattleBards.Tests.dll
+D:\SourceControl\BattleBards\BattleBards\BattleBards.Tests\obj\Debug\BattleBards.Tests.pdb

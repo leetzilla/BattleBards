@@ -1,50 +1,46 @@
 ﻿@using BattleBards.Models
 @model CharacterModels
-	
+
 @{
-    ViewBag.Title = "Character management";
+	ViewBag.Title = "Character management";
 }
 
 @section SpecialOther{
 	<style type="text/css">
 		#btnSave {
-			padding:8px 20px;
-			margin-top:20px;
-			width:200px;
-			font-weight:bold;
+			padding: 8px 20px;
+			margin-top: 20px;
+			width: 200px;
+			font-weight: bold;
 		}
 
 		#imgClass {
-			height:400px;
-			width:auto;
+			height: 400px;
+			width: auto;
 		}
 
 		span.attribute {
-			display:block;
-			margin-bottom:20px;
-			width:50px;
-			text-align:center;
+			display: block;
+			margin-bottom: 20px;
+			width: 50px;
+			text-align: center;
 		}
 
 		#stats {
-			display:none;
+			display: none;
 		}
 	</style>
 }
 
 <h2>Create a Character</h2>
-
+@using (Html.BeginForm("Create"))
+{
 <div class="col-md-4">
 	@Html.LabelFor(m => m.name, new { @class = "control-label" })
 	@Html.TextBoxFor(m => m.name, new { @class = "form-control" })
 
-	@Html.LabelFor(m => m.classID, new { @class = "control-label" })
-	<select class="form-control" onchange="switchClass()" id="ddlClass">
-		<option value="0">Choose...</option>
-		<option value="1">fighter</option>
-		<option value="2">wizard</option>
-		<option value="3">thief</option>
-	</select>
+	@Html.LabelFor(m => m.characterClass, new { @class = "control-label" })
+	@Html.EnumDropDownListFor(m => m.characterClass, new { @class = "form-control", onchange = "switchClass()", id = "ddlClass" })
 	<div id="stats">
 		@Html.LabelFor(m => m.smarts, new { @class = "control-label" })
 		<span id="smarts" class="attribute"></span>
@@ -55,6 +51,9 @@
 		@Html.LabelFor(m => m.swagger, new { @class = "control-label" })
 		<span id="swagger" class="attribute"></span>
 	</div>
+
+	@Html.LabelFor(m => m.gender, new { @class = "control-label" })
+	@Html.EnumDropDownListFor(m => m.gender, new { @class = "form-control" })
 </div>
 
 <div class="col-md-8">
@@ -64,8 +63,10 @@
 <br style="clear:both" />
 
 <div class="centered">
+	<div id="#result"></div>
 	<input type="submit" name="Save" value="Save" id="btnSave" />
 </div>
+	}
 
 <script type="text/javascript">
 	function switchClass() {
@@ -95,6 +96,24 @@
 		$("#swagger").html(swagger);
 		$("#stats").show();
 	}
+
+
+	$(function () {
+		$('form').submit(function () {
+			if ($(this).valid()) {
+				$.ajax({
+					url: this.action,
+					type: this.method,
+					data: $(this).serialize(),
+					success: function (result) {
+						$('#result').html(result);
+					}
+				});
+			}
+			return false;
+		});
+	});
+
 </script>
 
-	
+
